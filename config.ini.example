@@ -3,11 +3,12 @@
 USERNAME = example@example.com
 PASSWORD = xxxxxxxxxx
 SCHEDULE_ID = 99999999
-MY_SCHEDULE_DATE = 2024-01-01
-; Spanish - Colombia
-COUNTRY_CODE = es-co
-; Bogotá
-FACILITY_ID = 25
+MY_SCHEDULE_DATE = 2023-01-01
+; English - Canada
+COUNTRY_CODE = en-ca
+; Canada
+FACILITY_ID = 95
+; 95 is Vancouver, 94 is Toronto, you can find this in the network panel of your browser when changing cities.
 
 [CHROMEDRIVER]
 ; Details for the script to control Chrome

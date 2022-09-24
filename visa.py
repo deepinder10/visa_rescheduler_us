@@ -253,7 +253,7 @@ if __name__ == "__main__":
             if not dates:
               msg = "List is empty"
               send_notification(msg)
-              EXIT = True
+              # EXIT = True
             print_dates(dates)
             date = get_available_date(dates)
             print()
