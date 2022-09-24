@@ -3,7 +3,9 @@
 USERNAME = example@example.com
 PASSWORD = xxxxxxxxxx
 SCHEDULE_ID = 99999999
+; When you go on to the appointment page, url would look like this https://ais.usvisa-info.com/en-ca/niv/schedule/xxxxxxxxx/appointment, xxx is your schedule id
 MY_SCHEDULE_DATE = 2023-01-01
+; Date of your appointment, script will find appointments before this date
 ; English - Canada
 COUNTRY_CODE = en-ca
 ; Canada
@@ -16,6 +18,7 @@ LOCAL_USE = True
 ; Optional: HUB_ADDRESS is mandatory only when LOCAL_USE = False
 HUB_ADDRESS = http://localhost:9515/wd/hub
 
+; These are for push notifications and email alerts, completely optional and not required.
 [PUSHOVER]
 ; Get push notifications via https://pushover.net/ (optional)
 PUSH_TOKEN = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
